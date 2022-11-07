@@ -1,6 +1,6 @@
-package quest_23;
+package Lacos;
 import javax.swing.JOptionPane;
-public class Quest_23 {
+public class questao_23 {
 
     public static void main(String[] args) {
         int candidato [] = new int[30];

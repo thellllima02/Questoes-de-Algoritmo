@@ -1,6 +1,6 @@
-package quest_21;
+package Lacos;
 import javax.swing.JOptionPane;
-public class Quest_21 {
+public class questao_21 {
 
     public static void main(String[] args) {
         String letras [] = new String[100];

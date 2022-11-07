@@ -1,6 +1,6 @@
-package quest_22;
+package Lacos;
 import javax.swing.JOptionPane;
-public class Quest_22 {
+public class questao_22 {
 
     public static void main(String[] args) {
        int salario=0,filho=0,maior=0,cont=0;
