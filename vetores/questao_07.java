@@ -3,7 +3,7 @@ import javax.swing.JOptionPane;
 public class questao_07 {
     public static void main(String[] args) {
         int vetor [][] = new int [3][5];
-        int cont=0, cont1=0;
+        //int cont=0, cont1=0;
         String mostrar3 = " ",mostrar2 = " ",mostrar1 = " ";
         for(int w=0; w<2; w++){
             for(int e=0; e<5; e++){

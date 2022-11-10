@@ -3,7 +3,7 @@ import javax.swing.JOptionPane;
 public class questao_24 {
 
     public static void main(String[] args) {
-        int aluno,curso,ingresso,semestre,ano,repeti=0,contAlun=0,cont=0,contVest=0,contTran=0,contEne=0,contCr=0,contSup=0;
+        int aluno,curso,ingresso,semestre,ano,repeti=0,contAlun=0,cont=0,contVest=0,contTran=0,contEne=0,contSup=0;
         double maior=0,menor=0,soma=0,resul,resulLe,resulMa,resulBi,contLetra=0,contMate=0,contBiol=0,cont2=0;
         double cr[] = new double [20];
         do{
@@ -20,7 +20,7 @@ public class questao_24 {
             //CR do ano atual
             if(ano==22){
                 
-                contCr++;
+                //contCr++;
             //o maior valor que entrou
             if(cr[cont]>maior){
                 maior = cr[cont];
@@ -66,7 +66,7 @@ public class questao_24 {
                        contBiol++;
                }
                //ano atual e CR igual ou superio a 7.5
-               if((ano==20)&&(cr[cont]>=7.5)){
+               if((ano==22)&&(cr[cont]>=7.5)){
                   contAlun++; 
                }
             repeti = Integer.parseInt(JOptionPane.showInputDialog(null, " Deseja continuar ??\n Sim(4)/Não(-1)"));
@@ -75,12 +75,20 @@ public class questao_24 {
         resulLe = (cont2/100)*(contLetra*100);
         resulMa = (cont2/100)*(contMate*100);
         resulBi = (cont2/100)*(contBiol*100);
-        JOptionPane.showMessageDialog(null, contLetra+" "+contMate+" "+contBiol);
-        JOptionPane.showMessageDialog(null, "Foram matriculados "+cont+" ao todo \n"+"Em letras foram matriculados "+resulLe+" % \n"+
-                "Em Matemática foram "+resulMa+" % \nEm Biologia foram matriculados "+resulBi+" %"+
-                "\n \nForam "+contVest+" que ingressou pelo vestibular \n Foram "+contTran+" que ingressou pela transferência \n"+
-                " Foram "+contEne+" que ingressou pelo ENEM"+"\n \n A maior CR foi "+maior+ " \n A menor CR foi "+menor+
-               "\n \n O CR medio do ano atual foi "+resul +"\n \n Foram "+contSup+" alunos com CR superior ou igual a 7.5" );
+        //JOptionPane.showMessageDialog(null, contLetra+" "+contMate+" "+contBiol);
+        JOptionPane.showMessageDialog(null,
+         "Foram matriculados "+cont+" ao todo"+
+         "\n\nEm letras foram matriculados "+resulLe+" %"+
+        "\nEm Matemática foram "+resulMa+" %"+ 
+        "\n Em Biologia foram matriculados "+resulBi+" %"+
+        "\n\nAlunos que entraram no ano atual de 2022 com o CR superior a 7.5% = "+contAlun+
+        "\n \n A maior CR foi "+maior+
+        " \n A menor CR foi "+menor+
+        "\n \n O CR medio do ano atual foi "+resul+
+        "\n \nForam "+contVest+" que ingressou pelo vestibular"+
+         "\nForam "+contTran+" que ingressou pela transferência"+
+         "\nForam "+contEne+" que ingressou pelo ENEM" +
+         "\n \n Foram "+contSup+" alunos com CR superior ou igual a 7.5" );
       }
 
     
