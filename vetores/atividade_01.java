@@ -1,6 +1,6 @@
 package vetores;
 import javax.swing.JOptionPane;
-public class questao_09 {
+public class atividade_01 {
 
     public static void main(String [] args){
         int saber = 0,cont = 0;
