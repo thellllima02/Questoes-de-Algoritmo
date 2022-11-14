@@ -26,5 +26,6 @@ public class atividade_02 {
     }
     
 }
-    
+     //Atividade do dia 09/11/2022
+    //02 - Emplemente uma função recursiva para calcular a somatoria de todos os numeros e 1 a N;
 
