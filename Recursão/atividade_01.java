@@ -23,5 +23,6 @@ public class atividade_01 {
         }
         
     }
-    
+     //Atividade do dia 09/11/2022 
+    //01 - Emplemente uma função recursiva que da dois numeros x e n inteiros. Calcula o valor de x elevado a n;
 
