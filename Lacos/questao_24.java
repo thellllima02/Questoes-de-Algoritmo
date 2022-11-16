@@ -4,12 +4,14 @@ public class questao_24 {
 
     public static void main(String[] args) {
         int aluno,curso,ingresso,semestre,ano,repeti=0,contAlun=0,cont=0,contVest=0,contTran=0,contEne=0,contSup=0;
-        double maior=0,menor=0,soma=0,resul,resulLe,resulMa,resulBi,contLetra=0,contMate=0,contBiol=0,cont2=0;
+        double maior=0,menor=0,soma=0,resul,contLetra=0,contMate=0,contBiol=0;
+        //double resulLe,resulMa,resulBi,cont2=0;
+
         double cr[] = new double [20];
         do{
             //quantidade de alunos matriculados ao todo
             cont++;
-            cont2++;
+            //cont2++;
             //entrada de informações
             aluno = Integer.parseInt(JOptionPane.showInputDialog(null, " Numero do aluno "));
             curso = Integer.parseInt(JOptionPane.showInputDialog(null, " Qual o curso ?? \n 1 - Letras \n 2 - Matemática \n 3 - Biologia "));
@@ -72,15 +74,16 @@ public class questao_24 {
             repeti = Integer.parseInt(JOptionPane.showInputDialog(null, " Deseja continuar ??\n Sim(4)/Não(-1)"));
         }while(repeti!=-1);
         resul = soma / cont;
-        resulLe = (cont2/100)*(contLetra*100);
-        resulMa = (cont2/100)*(contMate*100);
-        resulBi = (cont2/100)*(contBiol*100);
+        //Parece que esta errado, arrumar 
+        //resulLe = (cont2/100)*(contLetra*100);
+        //resulMa = (cont2/100)*(contMate*100);
+        //resulBi = (cont2/100)*(contBiol*100);
         //JOptionPane.showMessageDialog(null, contLetra+" "+contMate+" "+contBiol);
         JOptionPane.showMessageDialog(null,
          "Foram matriculados "+cont+" ao todo"+
-         "\n\nEm letras foram matriculados "+resulLe+" %"+
-        "\nEm Matemática foram "+resulMa+" %"+ 
-        "\n Em Biologia foram matriculados "+resulBi+" %"+
+         "\n\nEm letras foram matriculados "+contLetra+
+        "\nEm Matemática foram "+contMate+ 
+        "\n Em Biologia foram matriculados "+contBiol+
         "\n\nAlunos que entraram no ano atual de 2022 com o CR superior a 7.5% = "+contAlun+
         "\n \n A maior CR foi "+maior+
         " \n A menor CR foi "+menor+
