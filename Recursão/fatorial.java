@@ -1,13 +1,13 @@
 package Recursão;
 import javax.swing.JOptionPane;
-public class atividade_03{
+public class fatorial{
     
-    public static int fatori(int m, int n ){
-        if(m==0){
+    public static int fatori(int n ){
+        if(n==0){
             return 1;
         }
         else 
-        return x*fatori(x-1);
+        return n*fatori(n-1);
     }
 
     public static void main(String[] args) {
