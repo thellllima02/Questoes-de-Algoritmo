@@ -11,11 +11,11 @@ public class fatorial{
     }
 
     public static void main(String[] args) {
-        int m1;
+        int numero;
         
-        m1 = Integer.parseInt(JOptionPane.showInputDialog(null, " Entre com um numero "));
+        numero = Integer.parseInt(JOptionPane.showInputDialog(null, " Entre com um numero "));
         
-        JOptionPane.showMessageDialog(null, " numero fatorial é = "+atividade_03.fatori(m1));
+        JOptionPane.showMessageDialog(null, " Numero fatorial de "+numero+" é "+fatorial.fatori(numero));
         
     }
     
