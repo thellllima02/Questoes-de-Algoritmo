@@ -14,3 +14,4 @@ public class questao_02 {
     }
      
 }
+//02 - Ler 20 numeros inteiros e depois imprimi-los em ordem inversa 

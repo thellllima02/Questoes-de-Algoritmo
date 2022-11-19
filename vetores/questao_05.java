@@ -22,3 +22,5 @@ public class questao_05 {
     }
    
 }
+//05 - Ler 50 valores reais e armazenar em um vetor. Modifique o vetor de modo que os valores das posiçoes impares sejam aumentados em 5%
+// e os da posições pares sejam aumentados em 2%. Imprima depois o vetor resultante

@@ -23,3 +23,6 @@ public class questao_07 {
         
     
 }
+
+//07 - Ler dois vetores de numeros inteiros, cada um com 30 posições. Crie um terceiro vetor onde cada valor é a soma dos valores contidos
+//nas posições respectivas dos vetores originais. Imprima depois os tres vetores.

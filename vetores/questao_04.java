@@ -14,3 +14,4 @@ public class questao_04 {
     }
     
 }
+//04 - Ler 30 numeros reais em um vetor e depois exibir os numeros lacalizados nas posições impares. 

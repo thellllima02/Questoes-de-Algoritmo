@@ -18,3 +18,6 @@ public class questao_01 {
     }
     
 }
+
+//01 - Faça um algoritmo para gerar um vetor de 30 posições, onde cada elemento corresponde ao quadrado de sua posição. Imprima depois o vetor 
+//resultante.

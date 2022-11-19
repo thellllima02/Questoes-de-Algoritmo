@@ -21,3 +21,5 @@ public class questao_06 {
     }
     
 }
+//06 - Faça um algortimo para criar um vetor real de 20 posições: as 10 primeiras são numeros informados pelo usuario, e as 10 seguintes são os 
+//mesmos numeros em ordem inversa.

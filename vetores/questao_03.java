@@ -18,3 +18,4 @@ public class questao_03 {
       }
    
 }
+//03 - Modifique o exercicio anterior, de modo que haja dois vetores, o original e o invertido. Imprima os vetores lado a lado no seguinte formato.

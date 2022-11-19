@@ -22,4 +22,6 @@ public class questao_10 {
     
 }
 
+//10 - Crie um vetor de 100 elementos onde cada dado é a letra "p" ou "i", dependendo da sua posição ser par ou impar.
+//Imprima depois o vetor
 

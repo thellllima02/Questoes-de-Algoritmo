@@ -24,3 +24,5 @@ public class questao_08 {
     }
     
 }
+//08 - Construa um algoritmo para ler dois vetores reais de 30 posições, e depois criar um terceiro vetor cujo conteudo de cada posição 
+//é: 1, se o numero armazenado em uma posição do 1º vetor é o mesmo armazenado na posição respctiva do 2º, e 0, caso contrario.
