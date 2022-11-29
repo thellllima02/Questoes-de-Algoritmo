@@ -33,8 +33,8 @@ public class prova_03 {
         JOptionPane.showMessageDialog(null, "Votaram = "+cont+"\n\nQuantidades de votos em branco "+resulBranco+"\nQuantidade de votos nulos "+resulNulo+
                 "\nDemais candidatos em ordem\n"+mostrar);
         //area de dados, prova de mesa. Saber os parametros. Apagar depois 
-        JOptionPane.showMessageDialog(null, "contador branco "+contBranco +"numeros de candidato"+candidato+" resultado querido "+resulBranco);
-        JOptionPane.showMessageDialog(null, "contador nulo "+contNulo+"numeros de candidato"+candidato+" resultado querido "+resulNulo);
+        //JOptionPane.showMessageDialog(null, "contador branco "+contBranco +"numeros de candidato"+candidato+" resultado querido "+resulBranco);
+        //JOptionPane.showMessageDialog(null, "contador nulo "+contNulo+"numeros de candidato"+candidato+" resultado querido "+resulNulo);
         
 
     }
