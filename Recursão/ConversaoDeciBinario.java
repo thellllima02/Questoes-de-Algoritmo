@@ -1,6 +1,6 @@
 package Recursão;
 import javax.swing.JOptionPane;
-public class conversao {
+public class ConversaoDeciBinario {
 
     public static int binario(int n ){
         if(n==1){
@@ -15,7 +15,7 @@ public class conversao {
         int numero;
         numero = Integer.parseInt(JOptionPane.showInputDialog(null, " Entre com um numero "));
         
-        JOptionPane.showMessageDialog(null, " Conversão de "+numero+" base decimal para binario é "+conversao.binario(numero));
+        JOptionPane.showMessageDialog(null, " Conversão de "+numero+" base decimal para binario é "+ConversaoDeciBinario.binario(numero));
        }
     
     
